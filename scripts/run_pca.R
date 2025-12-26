@@ -21,6 +21,7 @@ if (length(args) < 1) {
 # Load required libraries
 suppressPackageStartupMessages({
     library(ggplot2)
+    library(rlang)
 })
 
 # Parse arguments
@@ -219,7 +220,8 @@ print(p4)
 
 dev.off()
 
-cat("Plots saved to:", paste0(output_prefix, "_plots.pdf\n"))
+cat("Plots saved to:", paste0(output_prefix, "_plots.pdf"), "\n")
 cat("\n========================================\n")
 cat("PCA analysis completed successfully!\n")
 cat("========================================\n")
+

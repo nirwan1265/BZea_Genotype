@@ -193,7 +193,7 @@ if (length(unique(fst$Chr)) > 1) {
 
 dev.off()
 
-cat("Plots saved to:", paste0(output_prefix, ".pdf\n"))
+cat("Plots saved to:", paste0(output_prefix, ".pdf"), "\n")
 
 # Save summary statistics
 summary_file <- paste0(output_prefix, "_summary.txt")
@@ -219,3 +219,4 @@ cat("Summary saved to:", summary_file, "\n")
 cat("\n========================================\n")
 cat("FST plotting completed successfully!\n")
 cat("========================================\n")
+

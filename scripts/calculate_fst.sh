@@ -110,3 +110,4 @@ echo ""
 echo "Next steps:"
 echo "  - Visualize FST with R: Rscript scripts/plot_fst.R ${OUTPREFIX}_fst_windows.txt"
 echo ""
+

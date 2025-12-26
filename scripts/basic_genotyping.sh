@@ -135,3 +135,4 @@ echo "  1. Run quality control: see docs/quality_control.md"
 echo "  2. Analyze results: see docs/analysis.md"
 echo "  3. Visualize with R scripts in scripts/ directory"
 echo ""
+
