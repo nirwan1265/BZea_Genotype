@@ -1,0 +1,88 @@
+# ANGSD output files
+*.mafs.gz
+*.beagle.gz
+*.geno.gz
+*.bcf
+*.vcf.gz
+*.saf.idx
+*.saf.pos.gz
+*.saf.gz
+*.thetas.idx
+*.thetas.gz
+*.covMat
+*.ibsMat
+*.fst.idx
+*.fst.gz
+*.sfs
+*.arg
+
+# BAM files (usually stored elsewhere)
+*.bam
+*.bam.bai
+*.bai
+
+# FASTQ files
+*.fastq.gz
+*.fq.gz
+
+# Reference genome files (usually stored elsewhere)
+*.fa
+*.fasta
+*.fa.fai
+*.fasta.fai
+*.fa.amb
+*.fa.ann
+*.fa.bwt
+*.fa.pac
+*.fa.sa
+
+# Temporary and log files
+*.log
+*.tmp
+*.temp
+*.out
+*.err
+
+# R files
+.Rhistory
+.RData
+.Rproj.user
+Rplots.pdf
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Backup files
+*.bak
+*.backup
+
+# Build and test directories
+build/
+dist/
+test_output/
+
+# Large data directories (uncomment if needed)
+# data/
+# raw_data/
+# alignments/
+# reference/
+
+# Results directories (uncomment to keep results out of git)
+# results/
+# output/
